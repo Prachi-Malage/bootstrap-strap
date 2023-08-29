@@ -1,0 +1,21 @@
+@import "./abstract/var";
+@import "./abstract/mixins";
+
+
+
+@import "./base/base";
+@import "./base/typography";
+@import "./base/uitility";
+
+
+@import "./components/navbar";
+@import "./components/slider";
+@import "./components/bg-flex";
+
+
+
+@import "./layout/footer.scss";
+
+@import "./pages/home";
+@import "./pages/aboutus.scss";
+@import "./pages/services";

@@ -1,0 +1,6 @@
+.getting-started{
+    // background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7) ) url(../../images/road-img);
+    background-image: url(".../../../images/road-img");
+    @include bgFixed;
+  
+}

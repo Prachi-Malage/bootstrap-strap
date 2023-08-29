@@ -1,0 +1,104 @@
+.z-10 {
+  z-index: 10; }
+
+.mainHeader .navbar-brand {
+  max-width: 120px; }
+  .mainHeader .navbar-brand img {
+    width: 100%; }
+
+.mainHeader .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: #fff; }
+
+.mainHeader .navbar-nav .nav-item:active .nav-link, .mainHeader .navbar-nav .nav-item:hover .nav-link, .mainHeader .navbar-nav .nav-item:focus .nav-link {
+  color: #55c57a;
+  border-bottom: 2px solid #55c57a; }
+
+.showcase .carousel-item {
+  height: 400px !important; }
+  .showcase .carousel-item > img {
+    min-height: 100%;
+    object-fit: cover; }
+
+.showcase .carousel-caption {
+  top: 30% !important; }
+  .showcase .carousel-caption p, .showcase .carousel-caption h1 {
+    text-shadow: -5px 5px 6px rgba(0, 0, 0, 0.8); }
+
+.getting-started {
+  background-image: url(".../../../images/road-img");
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .getting-started::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.video {
+  background-image: url(.../../../images/road-img);
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .video::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.gallary-img-link {
+  display: inline-block;
+  width: 100%;
+  height: 300px; }
+  .gallary-img-link > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+@media screen and (maxwidth: 600px) {
+  .news .form-inline .btn {
+    display: block;
+    width: 100%; } }
+
+.aboutus {
+  height: 400px;
+  width: 400px; }
+
+.testmonials .owl-theme .owl-nav {
+  position: absolute;
+  left: -7%;
+  top: 20%;
+  width: 112%;
+  display: flex;
+  justify-content: space-between; }
+
+.testmonials .rounded-circle {
+  width: 20% !important;
+  margin: 0; }
+
+@media screen and (max-width: 768px) {
+  .testmonials .owl-theme .owl-nav {
+    display: none; } }
+
+.plancard-title {
+  position: relative;
+  top: -10px;
+  left: 10px; }
+
+.faq .card {
+  background-color: transparent; }
+  .faq .card-header .btn-link {
+    color: #fff; }

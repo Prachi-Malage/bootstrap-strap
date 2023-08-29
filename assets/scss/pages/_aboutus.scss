@@ -1,0 +1,27 @@
+.aboutus{
+    height: 400px;
+    width: 400px;
+}
+
+.testmonials{
+    .owl-theme .owl-nav{
+        position:absolute;
+        left: -7%;
+        top: 20%;
+        width: 112%;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .rounded-circle{
+        width: 20% !important;
+        margin: 0;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .testmonials .owl-theme .owl-nav{
+        display: none;
+    }
+}
